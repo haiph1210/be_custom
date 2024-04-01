@@ -1,0 +1,69 @@
+/* styles.css */
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: #ff9900;
+}
+
+.nav-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-right li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.nav-right li.active a {
+    color: #ff9900;
+}
+
+.wrapper-btn .btn-download {
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.wrapper-btn .btn-download:hover {
+    background-color: #e68a00;
+}

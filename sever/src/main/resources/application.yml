@@ -1,0 +1,21 @@
+spring:
+  mvc:
+    validation:
+      enabled: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/be_system?createDatabaseIfNotExist=true
+    username: root
+    password: admin
+  devtools:
+    add-properties: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
+springdoc:
+  swagger-ui:
+    operationsSorter: method
+    path: /swagger-ui.html
